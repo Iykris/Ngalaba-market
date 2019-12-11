@@ -1,0 +1,174 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #fbfbfb;
+}
+
+.container {
+	background: linear-gradient(rgba(28, 28, 28, 0.6), rgba(28, 28, 28, 0.6)),
+		url("./images/nigeria-economy.jpg") no-repeat center top fixed;
+	background-size: cover;
+}
+.header {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	width: 80%;
+}
+.navigation {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+}
+.request {
+	width: 170px;
+	padding: 5px;
+	background: #ffa500;
+	border: 2px solid #ffa500;
+	color: #fff;
+	margin-left: auto;
+}
+.request:hover {
+	cursor: pointer;
+	background: #ca860a;
+	border: 2px solid #ffa500;
+	transition: 1 sec;
+}
+#nav {
+	background: #222121;
+	border-bottom: 5px solid #82bf4c;
+	padding-top: 5px;
+}
+.nav {
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+	/* justify-content: space-around; */
+
+}
+ul {
+	margin-bottom: none;
+}
+
+.nav a {
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	color: #ffffff;
+}
+.overlay {
+	padding: 20px;
+}
+.hero {
+	/* background: url("./nigeria-economy.jpg") no-repeat center top fixed;
+	background-size: cover; */
+	display: flex;
+	margin: 0 auto;
+	width: 60%;
+	flex-direction: column;
+}
+.slogan {
+	color: #ffffff;
+	text-align: center;
+}
+.banner {
+	display: flex;
+	position: relative;
+	align-items: center;
+	/* justify-content: center; */
+	justify-content: space-around;
+	margin-bottom: 100px;
+	margin-top: 60px;
+}
+.map {
+	border: 8px solid #82bf4c;
+	background-color: #fff;
+	padding: 10px;
+	width: 400px;
+	height: 300px;
+	text-align: center;
+}
+.nmap {
+	height: 250px;
+	width: auto;
+}
+.metric {
+	color: #ffffff;
+	font-size: 24px;
+}
+.figure {
+	color: #82bf4c;
+}
+.featured {
+	flex-direction: column;
+	margin: auto;
+	display: flex;
+	padding: 30px;
+	background: #eeeff0;
+	justify-content: center;
+	width: 80%;
+	margin-top: 15px;
+	
+
+}
+.pos-online {
+	width: 25%;
+	height: auto;
+	position: center;
+	background: rgb(255, 254, 252);
+	padding: 10px;
+	margin-left: 40%;
+	margin-bottom: 20px;
+	text-align: center;
+
+	;
+}
+.slider {
+	flex-direction: row;
+	display: flex;
+	background: #fbfbfb;
+}
+
+.business {
+	width: 23%;
+	height: 150px;
+	border: #a0a19e solid 1px;
+	justify-content: space-around;
+	padding-left: 10px ;
+	margin: 10px;
+}
+.business > h4 {
+	color: #ffa500
+}
+.btn {
+	color: #ffffff;
+	background: #ffa500;
+	border-color:#ffa500;
+
+}
+.btn:hover {
+	cursor: pointer;
+	background: #5fd64f;
+	border: 2px solid #ffa500;
+	transition: 1 sec;
+	
+}
+.content {
+	background: url(./images/home-section-3-bg.jpg);
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+}
+.listed {
+	background: url(./images/ngalaba-text.png);
+	width: 30px;
+	height: auto;
+}
+.advert {
+	margin: 30px;
+	width: 60%;
+	text-align: center;
+	background: #eeeff0
+}
